@@ -1,9 +1,8 @@
 {
   "name": "jokerz",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node worker.js",  // If you want to use worker.js as the entry point
     "worker": "node worker.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
