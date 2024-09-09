@@ -2,8 +2,8 @@
   "name": "jokerz",
   "version": "1.0.0",
   "scripts": {
-    "start": "node worker.js",  // If you want to use worker.js as the entry point
-    "worker": "node worker.js",
+    "start": "node cmd.js",
+    "worker": "node interval.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
